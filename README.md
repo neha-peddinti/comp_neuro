@@ -6,6 +6,8 @@ Exercises and notes are from textbook "Theoretical Neuroscience" (Dayan and Abbo
 
 Exercises are written in Python, with a few in MATLAB, and involve statistical analysis and visualization using matplotlib. Notes are primarily in LATEX (with Ch. 1 notes in a Jupyter notebook). Each chapter has notes, and most have solutions to selected exercises.
 
+See *call.pdf* for a list of all chapter exercises. Data required for the exercises is in the *data* folder of each chapter directory.
+
 ## Contents
 
 ### Ch 1. Neural encoding I: Firing rates and spike statistics
