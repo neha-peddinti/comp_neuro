@@ -1,0 +1,18 @@
+For a constant rate Poisson process, every specific (up to a finite
+resolution) sequence of N spikes occurring over a given time interval
+is equally likely. This seems paradoxical because we certainly do not
+expect to see all N spikes appearing within the first 1% of the time
+interval. Resolve this paradox.
+
+Answer:
+Every sequence of N spikes occurring over a given time interval T is 
+equally likely, but we don't expect to see all N spikes appearing 
+within the first 1% of the time interval. 
+This isn't a paradox because if you restrict the spikes to be in the 
+first 1% of the given time interval, you're changing the time interval 
+being used to a smaller length, so the probability of N spikes in that 
+smaller intervals is much lower. 
+Getting any specific sequence of N spikes in T is just as unlikely as 
+getting all N spikes in the first 1% of the interval, but the probability 
+that the N spikes is in the first 80% of the interval (for example) is 
+higher since the restricted interval is larger.
